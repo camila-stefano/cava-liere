@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="bg-primary flex justify-center items-center border-b-secondary py-4 border-b-2">
-      <ul className="flex gap-10 text-white text-sm font-maison tracking-wider">
+    <header className="bg-primary flex justify-center items-center border-b-secondary pt-2 border-b-2">
+      <ul className="flex gap-10 text-white text-sm font-roboto tracking-wider">
         <li>HISTORIA</li>
         <li>TIENDA</li>
       </ul>
@@ -15,7 +15,7 @@ const Header = () => {
           alt="Logo Cavaliere"
         />
       </div>
-      <ul className="flex gap-10 text-white text-sm font-maison tracking-wider">
+      <ul className="flex gap-10 text-white text-sm font-roboto tracking-wider">
         <li>VINOS</li>
         <li>REGALOS</li>
       </ul>

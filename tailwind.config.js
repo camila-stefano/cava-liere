@@ -24,7 +24,7 @@ module.exports = {
         red: "#e22120",
       },
       fontFamily: {
-        maison: ["Maison Neue", "Helvetica", "Arial", "sans-serif"],
+        roboto: ["'Roboto', sans-serif;"],
       },
     },
   },
