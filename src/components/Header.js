@@ -5,7 +5,7 @@ const Header = () => {
     <header className="bg-primary flex justify-center items-center border-b-secondary py-4 border-b-2">
       <ul className="flex gap-10 text-white text-sm font-maison tracking-wider">
         <li>HISTORIA</li>
-        <li>STORE</li>
+        <li>TIENDA</li>
       </ul>
       <div className="px-8 pb-4">
         <Image
@@ -17,7 +17,7 @@ const Header = () => {
       </div>
       <ul className="flex gap-10 text-white text-sm font-maison tracking-wider">
         <li>VINOS</li>
-        <li>BEBIDAS VARIAS</li>
+        <li>REGALOS</li>
       </ul>
     </header>
   );
