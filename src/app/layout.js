@@ -1,9 +1,32 @@
-import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 
-const inter = Inter({ subsets: ["latin"] });
+const maison = localFont({
+  src: [
+    {
+      path: "../assets/fonts/MaisonNeue-Light.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../assets/fonts/MaisonNeue-Medium.ttf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../assets/fonts/MaisonNeue-Bold.ttf",
+      weight: "600",
+      style: "bold",
+    },
+    {
+      path: "../assets/fonts/MaisonNeue-Bold.ttf",
+      weight: "700",
+      style: "bold",
+    },
+  ],
+});
 
 export const metadata = {
   title: "Cavaliere - Espacio de bebidas",
@@ -14,7 +37,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${maison.className} bg-primary`}>
         <Header />
         {children}
         <Hero />
