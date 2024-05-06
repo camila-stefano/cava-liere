@@ -12,11 +12,26 @@ const Header = () => {
         />
       </div>
       <ul className="flex gap-10 text-white text-sm tracking-wider">
-        <li>HISTORIA</li>
-        <li>TIENDA</li>
-        <li>VINOS DE AUTOR</li>
-        <li>BEBIDAS VARIAS</li>
-        <li>REGALOS</li>
+        <li>
+          <a href="" className="hover:border-b-2 border-b-secondary">
+            Historia
+          </a>
+        </li>
+        <li>
+          <a href="" className="hover:border-b-2 border-b-secondary">
+            Nuestro Local
+          </a>
+        </li>
+        <li>
+          <a href="" className="hover:border-b-2 border-b-secondary">
+            Productos
+          </a>
+        </li>
+        <li>
+          <a href="" className="hover:border-b-2 border-b-secondary">
+            Regalos
+          </a>
+        </li>
       </ul>
     </header>
   );
