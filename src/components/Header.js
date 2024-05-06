@@ -14,11 +14,6 @@ const Header = () => {
       <ul className="flex gap-10 text-white text-sm tracking-wider">
         <li>
           <a href="" className="hover:border-b-2 border-b-secondary">
-            Historia
-          </a>
-        </li>
-        <li>
-          <a href="" className="hover:border-b-2 border-b-secondary">
             Nuestro Local
           </a>
         </li>
