@@ -5,7 +5,7 @@ const Header = () => {
     <header className="container mx-auto flex justify-between items-center">
       <div className="">
         <Image
-          src="/logo-cavaliere.jpeg"
+          src="/logo-cavaliere-black.png"
           width={100}
           height={100}
           alt="Logo Cavaliere"
