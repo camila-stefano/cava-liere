@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Form from "@/components/Form";
 
 const maison = localFont({
   src: [
@@ -41,6 +42,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Hero />
+        <Form />
       </body>
     </html>
   );
