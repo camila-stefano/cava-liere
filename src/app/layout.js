@@ -26,6 +26,11 @@ const maison = localFont({
       weight: "700",
       style: "bold",
     },
+    {
+      path: "../assets/fonts/MaisonNeue-Bold.ttf",
+      weight: "800",
+      style: "bold",
+    },
   ],
 });
 
