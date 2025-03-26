@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="container mx-auto flex justify-between items-center">
+    <header className="container mx-auto flex items-center justify-between">
       <div className="">
         <Image
           src="/logo-cavaliere-black.png"
@@ -11,19 +11,19 @@ const Header = () => {
           alt="Logo Cavaliere"
         />
       </div>
-      <ul className="flex gap-10 text-white text-sm tracking-wider">
+      <ul className="flex gap-10 text-sm tracking-wider text-white">
         <li>
-          <a href="" className="hover:border-b-2 border-b-secondary">
+          <a href="" className="border-b-secondary hover:border-b-2">
             Nuestro Local
           </a>
         </li>
         <li>
-          <a href="" className="hover:border-b-2 border-b-secondary">
+          <a href="" className="border-b-secondary hover:border-b-2">
             Productos
           </a>
         </li>
         <li>
-          <a href="" className="hover:border-b-2 border-b-secondary">
+          <a href="" className="border-b-secondary hover:border-b-2">
             Regalos
           </a>
         </li>
