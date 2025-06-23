@@ -4,12 +4,20 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section className="flex flex-col items-center justify-center px-0 py-0 text-white">
-      <div className="bg-middle flex min-h-[500px] w-full flex-col items-center justify-center gap-4 bg-[url('/img/hero-pattern.jpg')] bg-cover">
+      <div className="relative flex min-h-[500px] w-full flex-col items-center justify-center gap-4">
+        <video
+          className="absolute top-0 left-0 z-[-1] h-full w-full object-cover"
+          src="/img/video-bg.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+        />
         <h1 className="container text-4xl font-light tracking-tight sm:text-6xl">
           <span className="text-6xl tracking-[.1em] sm:text-9xl">
             Cavaliere
           </span>
-          ,<br /> espacio de bebidas
+          <br /> espacio de bebidas
         </h1>
       </div>
       <div className="my- container my-20 flex flex-wrap justify-between">

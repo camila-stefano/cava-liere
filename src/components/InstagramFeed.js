@@ -16,9 +16,6 @@ const InstagramFeed = () => {
   return (
     <div className="w-full bg-white">
       <div className="mx-auto my-10 w-full max-w-6xl px-4">
-        <h2 className="mb-6 text-center text-2xl font-bold">
-          Seguinos en Instagram
-        </h2>
         <div
           className="elfsight-app-f82ddfcb-3be7-48de-b002-be7ac38b28f9"
           data-elfsight-app-lazy
