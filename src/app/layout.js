@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Form from "@/components/Form";
+import InstagramFeed from "@/components/InstagramFeed";
 
 const maison = localFont({
   src: [
@@ -43,11 +44,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${maison.className} bg-primary`}>
+      <body className={`${maison.className} bg-black`}>
         <Header />
         {children}
         <Hero />
         <Form />
+        <InstagramFeed />
       </body>
     </html>
   );
