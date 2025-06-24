@@ -1,4 +1,5 @@
 import Image from "next/image";
+import NavLink from "./NavLink";
 
 const Header = () => {
   return (
@@ -13,19 +14,13 @@ const Header = () => {
       </div>
       <ul className="flex gap-10 text-sm tracking-wider text-white">
         <li>
-          <a href="" className="border-b-secondary hover:border-b-2">
-            Nuestro Local
-          </a>
+          <NavLink href="/store" label="Store" />
         </li>
         <li>
-          <a href="" className="border-b-secondary hover:border-b-2">
-            Productos
-          </a>
+          <NavLink href="/productos" label="Productos" />
         </li>
         <li>
-          <a href="" className="border-b-secondary hover:border-b-2">
-            Regalos
-          </a>
+          <NavLink href="/contacto" label="Contacto" />
         </li>
       </ul>
     </header>

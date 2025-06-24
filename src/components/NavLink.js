@@ -1,10 +1,10 @@
-const NavLink = ({ href, children }) => {
+import Link from "next/link";
+
+const NavLink = ({ href, label }) => {
   return (
-    <li>
-      <a href="{href}" className="border-b-secondary hover:border-b-2">
-        {children}
-      </a>
-    </li>
+    <Link href={href} className="border-b-2 px-4 py-2 text-sm font-medium">
+      {label}
+    </Link>
   );
 };
 
