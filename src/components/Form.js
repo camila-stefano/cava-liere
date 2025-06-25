@@ -91,7 +91,7 @@ const Form = () => {
             </label>
           </div>
         </div>
-        <Button>Enviar</Button>
+        <Button variant="darkTheme">Enviar</Button>
       </form>
     </div>
   );
