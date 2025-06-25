@@ -64,7 +64,7 @@ const Hero = () => {
       <div className="container flex w-full gap-4">
         <div className="flex w-2/4">
           <Image
-            className=""
+            className="rounded-lg"
             src="/frente-cavaliere.jpeg"
             width={450}
             height={400}
@@ -75,9 +75,10 @@ const Hero = () => {
           <h3 className="text-secondary tracking-widest">NUESTRO LOCAL</h3>
           <h2 className="py-2 text-white">Brindando experiencias unicas</h2>
           <p className="max-w-xl py-2 text-white">
-            Lorem Ipsun djdkjkaskjkdjjdidj
+            Lorem Ipsun djdkjkaskjkdjjdidj Lorem Ipsun djdkjkaskjkdjjdidj Lorem
+            Ipsun djdkjkaskjkdjjdidj
           </p>
-          <Button className="">Como llegar</Button>
+          <Button variant="lightTheme">Como llegar</Button>
         </div>
       </div>
     </section>
