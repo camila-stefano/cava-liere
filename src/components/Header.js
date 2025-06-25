@@ -1,5 +1,6 @@
 import Image from "next/image";
 import NavLink from "./NavLink";
+import Button from "./Button";
 
 const Header = () => {
   return (
@@ -23,6 +24,9 @@ const Header = () => {
           <NavLink href="/contacto" label="Contacto" />
         </li>
       </ul>
+      <div>
+        <Button variant="darkTheme">Contacto</Button>
+      </div>
     </header>
   );
 };
