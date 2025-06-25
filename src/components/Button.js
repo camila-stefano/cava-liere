@@ -4,7 +4,8 @@ const Button = ({ children, variant }) => {
   const variantStyles = {
     darkTheme:
       "bg-white hover:bg-black text-black hover:text-white border-white",
-    lightTheme: "bg-black hover:bg-white text-white hover:text-black",
+    lightTheme:
+      "bg-black hover:bg-white text-white hover:text-black border-white",
   };
   let buttonClasses = `${baseStyles} ${variantStyles[variant]}`;
   return <button className={buttonClasses}>{children}</button>;
